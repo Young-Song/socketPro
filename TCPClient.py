@@ -2,7 +2,8 @@
 from socket import *
 #define host name and port 
 serverName = "localhost"
-serverPort = 12000
+portNum =12000
+serverPort = portNum
 
 # create a socket and bind its ip and port
 clientSocket = socket(AF_INET, SOCK_STREAM)
